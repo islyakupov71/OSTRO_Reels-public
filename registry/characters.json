@@ -1,0 +1,9 @@
+{
+  "demo-host": {
+    "name": "Demo robot",
+    "role": "Synthetic presenter",
+    "model": "assets/characters/demo-host.glb",
+    "voice": null,
+    "rig": "demo-robot-v1"
+  }
+}

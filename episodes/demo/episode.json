@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "id": "demo",
+  "title": "OFFLINE DEMO",
+  "fps": 24,
+  "width": 540,
+  "height": 960,
+  "seed": 71,
+  "opening_silence": 0.1,
+  "ending_silence": 0.2,
+  "actors": [
+    {
+      "id": "host",
+      "character": "demo-host",
+      "position": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "example",
+      "speaker": "host",
+      "text": "Synthetic example. No recorded voice.",
+      "cached_audio": ".local/demo/silence.wav",
+      "gap_after": 0.1
+    }
+  ],
+  "scenes": [
+    {
+      "anchor": "opening",
+      "template": "studio"
+    }
+  ],
+  "camera": {
+    "position": [
+      3,
+      -13,
+      6
+    ],
+    "look_at": [
+      0,
+      0,
+      1.7
+    ],
+    "scale": 6
+  }
+}

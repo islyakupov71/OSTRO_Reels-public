@@ -1,0 +1,9 @@
+{
+  "demo-host": {
+    "name": "Demo robot",
+    "voice_id": null,
+    "status": "not_configured",
+    "samples_dir": "voices/inbox/demo-host",
+    "method": "not_configured"
+  }
+}
